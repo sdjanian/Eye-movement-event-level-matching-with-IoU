@@ -1,4 +1,4 @@
-# Eye-movement-event-level-matching-with-IoU
+# Eye movement event level matching with IoU
 There are various different methods of event level matching for eye movements and this is a Python implementation of using Intersection over Union (IoU) as a threshold to decide how big of an overlap there needs to be between two events for them to be a hit. This can be used to calculate and event level F1-score for e.g. fixation, saccades, PSO and smooth pursuit. This event level matching is described in the paper *1D CNN with BLSTM for automated classification of fixations, saccades, and smooth pursuits* by Startsev et al. 2018 from the journal *Behavior Research Methods*
 
 ## Pseudo code
