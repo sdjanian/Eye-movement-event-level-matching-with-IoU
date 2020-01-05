@@ -40,7 +40,22 @@ container_1 = eventLevelMatchingIoU(gt,alg,label_names = None,event_types = [0,3
 If you want to specify both label_names and event_types make sure so specify the same amount, e.g.: 
 label_names = ['name1','name3']
 event_types = [1,3]
+## Citation
+The implementation is from my Master's Thesis [Eye Movement Classification Using Deep Learning](https://projekter.aau.dk/projekter/da/studentthesis/eye-movement-classification-using-deep-learning(d61882dd-d297-48c5-bcc5-500f81dd78c3).html)
 
+Cite it as such:
+
+```latex
+@mastersthesis{mastersthesis,
+  author       = {Shagen Djanian}, 
+  title        = {Eye Movement Classification Using Deep Learning},
+  school       = {Aalborg University},
+  year         = 2019,
+  address      = {Fredrik Bajers Vej 7K, 9220 Aalborg East, Denmark},
+  month        = 6,
+  note         = {}
+}
+```
 ## Author
 Shagen Djanian
 2019-07-24
