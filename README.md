@@ -34,7 +34,7 @@ The inputs are sample level labels for ground truth and a comparison e.g. anothe
 
 ## Installation
 
-Clone the repositry and import eventLevelMatchingIoU.py in your project. Make sure to have the Python packages Numpy, Pandas and Copy installed. In case functionallity of the packages change the used versions of each package is listed here:
+Install using setup.py or clone the repositry and import eventLevelMatchingIoU.py in your project. Make sure to have the Python packages Numpy, Pandas and Copy installed. In case functionallity of the packages change the used versions of each package is listed here:
 
 
 Numpy: 1.14.5
@@ -45,7 +45,7 @@ Pandas: 0.23.4
 ## Usage
 
 ```python
-import eventLevelMatchingIoU
+from eventMatchingIoU import eventLevelMatchingIoU
 
 alg = [0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,1,1,1,1,0,0,0,2,1,1,1,1,1]
 gt = [0,0,0,1,1,1,1,1,1,0,0,0,2,2,2,2,2,3,3,3,3,3,1,1,1,1,0,0,0,0,1,1,1,0,1]
